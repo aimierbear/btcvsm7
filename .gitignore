@@ -22,5 +22,5 @@ output/
 # macOS
 .DS_Store
 
-# Streamlit
-.streamlit/
+# Streamlit secrets (API keys)
+.streamlit/secrets.toml
