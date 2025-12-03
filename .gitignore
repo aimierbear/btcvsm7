@@ -1,0 +1,26 @@
+# 环境变量（包含 API Key，不要提交！）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 输出
+output/
+*.html
+
+# macOS
+.DS_Store
+
+# Streamlit
+.streamlit/

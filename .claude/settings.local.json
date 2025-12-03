@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__filesystem__directory_tree",
+      "mcp__filesystem__list_directory",
+      "WebSearch",
+      "mcp__context7__resolve-library-id",
+      "mcp__filesystem__write_file"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
