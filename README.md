@@ -1,32 +1,17 @@
+---
+title: BTC vs M7 强弱指数
+emoji: 📊
+colorFrom: orange
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.29.0
+app_file: app.py
+pinned: false
+---
+
 # BTC vs Magnificent 7 相对强弱指数
 
 追踪 BTC 相对于美股七朵金花（AAPL, MSFT, GOOGL, AMZN, NVDA, META, TSLA）的相对强弱，判断资金流向偏好。
-
-## 快速开始
-
-### 1. 安装依赖
-```bash
-pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-### 2. 配置 API Key
-```bash
-cp .env.example .env
-# 编辑 .env，填入你的 Twelve Data API Key
-# 获取地址: https://twelvedata.com/pricing (免费)
-```
-
-### 3. 启动
-```bash
-streamlit run app.py
-```
-
-## 服务器部署
-
-```bash
-# 后台运行，监听所有 IP
-nohup streamlit run app.py --server.port 8501 --server.address 0.0.0.0 > app.log 2>&1 &
-```
 
 ## 核心指标
 
