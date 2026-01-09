@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pip install -e .",
+  "devCommand": "streamlit run app.py",
+  "installCommand": "pip install -r requirements.txt",
+  "framework": "python",
+  "regions": ["iad1"]
+}
